@@ -1,0 +1,15 @@
+<header>
+    <!-- Add the logo image using the img tag -->
+
+    <label for="language-select">Select Language:</label>
+    <select id="language-select" (change)="onChange($event)">
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+    </select>
+
+    <button type="button" (click)="buttonClick('Jobs')">Jobs</button>&nbsp;
+    <button type="button" (click)="buttonClick('Orders')">Orders</button>&nbsp;
+    <button type="button" (click)="buttonClick('Contact')">Contact</button>
+</header>

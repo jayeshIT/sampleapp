@@ -1,0 +1,7 @@
+{
+    "title": "Mi Aplicación",
+    "welcome": "Bienvenido a Mi Aplicación",
+    "description": "Esta es una aplicación de ejemplo para demostrar la internacionalización.",
+    "joblist": "Esta es una lista de trabajos",
+    "orderlist": "Esta es una lista de pedidos"
+}
